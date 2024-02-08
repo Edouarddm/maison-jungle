@@ -6,6 +6,7 @@ function CareScale({scaleValue, careType}) {
   <div>
     {range.map((rangeElem) =>
       scaleValue >= rangeElem ? <span key={rangeElem.toString()}>{scaleType}</span> : null
+      alert('scaleValue')
     )}
   </div>
   )
